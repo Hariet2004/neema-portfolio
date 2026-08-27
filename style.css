@@ -1,4 +1,4 @@
-﻿/* ===== BASE ===== */
+/* ===== BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -422,7 +422,7 @@ h2::before {
 }
 
 .project-item ul li::before {
-  content: 'â–¸';
+  content: '\25B8';
   position: absolute;
   left: 0;
   color: var(--accent2);
@@ -545,7 +545,7 @@ h2::before {
 }
 
 .exp-item ul li::before {
-  content: 'â–¸';
+  content: '\25B8';
   position: absolute;
   left: 0;
   color: var(--accent);
