@@ -447,6 +447,27 @@ h2::before {
   letter-spacing: 0.02em;
 }
 
+/* ===== CANVA VIDEOS ===== */
+.canva-videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.canva-videos video {
+  width: 100%;
+  border-radius: 8px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  max-height: 360px;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .canva-videos { grid-template-columns: 1fr; }
+}
+
 /* ===== EXPERIENCE ===== */
 #experience {
   background: var(--bg2);
